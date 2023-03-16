@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"[]>
+<suite name="PDFMorph Suite">
+<listeners>
+
+<listener class-name="com.inspire.listeners.Listeners"/>
+
+</listeners>
+  <test  name="PDFMorph">
+  
+     <classes>
+      <class name="com.inspire.Automation.InspireAutomation" />
+    </classes>
+  </test>
+  
+ 	<parameter name = "FolderPath" value ="C:\QA\Files" />
+ 	<parameter name ="xmlFileName" value ="Sample2 (1).pdf.json2023-01-06T03_55_57.1525706Z" />
+	<parameter name = "ProcessId" value ="3" />
+	<parameter name="UserId" value="1" />
+ 	<parameter name="ProcessName" value="Sample1 (1).pdf.json2023-01-06T03_57_36.2116411Z" />
+  	<parameter name = "folderpath" value ="C:\QA\Files"/>
+	<parameter name ="ExcelFileName" value ="Sample1 (1).pdf.json2023-01-06T03_57_36.2116411Z"/>
+ 	<parameter name="WfdFilename" value="Sample1 (1).pdf.json2023-01-06T03_57_36.2116411Z.wfd" />
+ 	<parameter name="ExecutionStatus" value="1" />
+ 	<parameter name="SuccessStatus" value="0" />
+  	<parameter name="CreatedOn" value="12/23/2020 7:24:32 AM" />
+  	<parameter name="UpdatedOn" value="12/23/2020 7:24:32 AM" />
+ 	<parameter name="IsDeleted" value="False" />
+	
+	
+</suite>
+<!-- Suite -->
+
+

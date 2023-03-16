@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PDFMorph Suite]">
+  <parameter name="ProcessName" value="Sample1 (1).pdf.json2023-01-06T03_57_36.2116411Z"/>
+  <parameter name="folderpath" value="C:\QA\Files"/>
+  <parameter name="IsDeleted" value="False"/>
+  <parameter name="FolderPath" value="C:\QA\Filess"/>
+  <parameter name="xmlFileName" value="Sample2 (1).pdf.json2023-01-06T03_55_57.1525706Z"/>
+  <parameter name="ExecutionStatus" value="1"/>
+  <parameter name="UserId" value="1"/>
+  <parameter name="WfdFilename" value="Sample1 (1).pdf.json2023-01-06T03_57_36.2116411Z.wfd"/>
+  <parameter name="UpdatedOn" value="12/23/2020 7:24:32 AM"/>
+  <parameter name="ProcessId" value="3"/>
+  <parameter name="CreatedOn" value="12/23/2020 7:24:32 AM"/>
+  <parameter name="SuccessStatus" value="0"/>
+  <parameter name="ExcelFileName" value="Sample1 (1).pdf.json2023-01-06T03_57_36.2116411Z"/>
+  <listeners>
+    <listener class-name="com.inspire.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="PDFMorph(failed)">
+    <classes>
+      <class name="com.inspire.Automation.InspireAutomation">
+        <methods>
+          <include name="inspireTest" invocation-numbers="0"/>
+          <include name="initialSetup"/>
+        </methods>
+      </class> <!-- com.inspire.Automation.InspireAutomation -->
+    </classes>
+  </test> <!-- PDFMorph(failed) -->
+</suite> <!-- Failed suite [PDFMorph Suite] -->
